@@ -18,17 +18,19 @@ body{
     transition: all 0.3s ease;
 }
 .box{
-    width:40px;
-    height: 35px;
+    width:60px;
     background-color: #709D61;
     float: left;
     border-radius: 5px;
     margin-left: 15px;
+    margin-top: 0;
+
 }
 .navbar .logo a {
     font-size: 35px;
     font-weight: 600;
     color: #000000;
+    margin-left: 70px;
 }
 .max-width{
     max-width: 1200px;
@@ -262,4 +264,98 @@ body{
    font-size: 45px;
    text-align: center;
    margin-bottom: 60px;
+}
+.work .work-content{
+    text-align: center;
+    padding: 10px;
+    padding-right: 10px;
+}
+
+
+
+.testimonial .max-width .offer {
+    color: #709D61;
+    font-size: 16px;
+    font-weight: normal;
+    align-items: center;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.testimonial .max-width .whatoffer {
+   color:#000000;
+   font-weight: bold;
+   font-size: 45px;
+   text-align: center;
+   margin-bottom: 60px;
+}
+.test-text{
+    float: right;
+    width: 55%;
+}
+.test-text p,h3{
+    width: 70%;
+    color: #949494;
+    margin-top: 10px;
+}
+.ceo{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+
+.news .max-width{
+    background-color: #E0E8E1;
+    height: 250px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.news .max-width .offer {
+    color: #709D61;
+    font-size: 16px;
+    font-weight: normal;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.news .max-width .whatoffer {
+   color:#000000;
+   font-weight: bold;
+   font-size: 45px;
+   text-align: center;
+   margin-bottom: 30px;
+}
+
+.news .max-width input{
+    height: 60px;
+    width: 580px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 18px;
+    padding: 20px;
+}
+.textbox{
+    text-align: center;
+}
+.news .max-width button{
+    border-radius: 5px;
+    width: 140px;
+    border: 3px solid;
+    border-color: #709D61;
+    top: 3703px;
+    right: 480px;
+    height: 45px;
+    cursor: pointer;
+    color: white;
+    background-color: #709d61;
+    font-size: 20px;
+    position: absolute;
+}
+.news .max-width button:hover{
+   background-color: #ffffff;
+   color: #000000;
 }
