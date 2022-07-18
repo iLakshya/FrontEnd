@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.column1
+{
+    float: left;
+    width: 50%;
+}
+.column2
+{
+    float: right;
+    width: 50%;
+}
+.color1
+{
+    height: 50%;
+    background-color: #d7b740;
+}
+.color2
+{
+    height: 50%;
+    background-color: #808080;
+}
+.color3
+{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: #008080;
+}
+.color4
+{
+    width: 50%;
+    height: 50%;
+    float: right;
+    background-color: #ffc0cb;
+}
+.color5
+{
+    width: 50%;
+    height: 50%;
+    float: right;
+    background-color: #ffffff;
+}
