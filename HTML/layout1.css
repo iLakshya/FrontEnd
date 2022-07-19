@@ -1,0 +1,154 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #F2F2F2;
+}
+.navbar
+{
+    width: 100%;
+    height: 30px;
+    border: 1px;
+    background-color: white;
+}
+#logo
+{
+    margin-left: 5px;
+    float: left;
+    width: 80px;
+    cursor: pointer;
+    height: 30px;
+}
+#search_1
+{
+    width: 100%;
+    height: 100%;
+}
+.search1
+{
+    padding: 0;
+    margin-right: 5px;
+    width: 50px;
+    height: 30px;
+    border: 0;
+    float: right;
+    cursor: pointer;
+}
+.container1
+{
+    position: relative;
+    margin: 0 10% 0 10%;
+}
+#london
+{
+    width: 100%;
+    height: 100%;
+}
+.card
+{
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    top: 30%;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    background-color: white;
+}
+.search
+{
+    background-color: #808080;
+    font-size: 10px;
+    padding: 8px;
+    color: whitesmoke;
+    border: none;
+    float: left;
+    margin-top: 2px;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+input[type=text]
+{
+    width: 93%;
+    font-size: 10px;
+    padding: 5px;
+    display: inline-block;
+}
+.form
+{
+    height: 50px;
+}
+.depart
+{
+    width: 50%;
+    float: left;
+}
+.arrive
+{
+    width: 50%;
+    float: right;
+}
+.container2
+{
+    margin-left: 27%;
+    margin-right: 27%;
+}
+.text1
+{
+    margin-right: 27%;
+    display: inline-block;
+}
+#ocean
+{
+    width: 49%;
+    display: inline-block;
+}
+#mountain
+{
+    width: 49%;
+    margin-left: 10px;
+    float: right;
+}
+.img1_des
+{
+    margin-top: 10px;
+    width: 48%;
+    background-color: white;
+    display: inline-block;
+    font-size: 12px;
+    padding-left: 7px;
+}
+.img2_des
+{
+    margin-top: 10px;
+    width: 48%;
+    background-color: white;
+    float: right;
+    font-size: 12px;
+    padding-left: 7px;
+}
+input[type=email]
+{
+    width: 98%;
+    font-size: 9px;
+    padding: 5px;
+    display: inline-block;
+}
+.newsletter
+{
+    /* margin-left: 27%; */
+    /* margin-right: 27%; */
+    font-family:Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    padding: 10px;
+    background-color: grey;
+}
+.subscribe
+{
+    background-color: rgb(219, 133, 148);
+    font-size: 10px;
+    padding: 8px;
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+}
