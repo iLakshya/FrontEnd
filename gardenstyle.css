@@ -346,8 +346,8 @@ body{
     width: 140px;
     border: 3px solid;
     border-color: #709D61;
-    top: 3703px;
     right: 480px;
+    top: 525%;
     height: 45px;
     cursor: pointer;
     color: white;
@@ -358,4 +358,5 @@ body{
 .news .max-width button:hover{
    background-color: #ffffff;
    color: #000000;
+   transition: 1s;
 }
