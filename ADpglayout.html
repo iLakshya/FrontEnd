@@ -1,0 +1,60 @@
+<html>
+<head>
+    <title>flex</title>
+</head>
+<style> 
+    *{
+        margin: 0%;
+        border: 0%;
+    }
+    .f1{
+      width: 50%;
+      height: 50%;
+      background-color: #D7B740;
+      
+      display: inline-block;
+    }    
+    #main {
+        width: 50%;
+        height: 50%;
+        float: right;
+        display: flex;
+      }
+      
+      #main div {
+        -ms-flex: 1;  /* IE 10 */  
+        flex: 1;
+      }
+      #main1 {
+        width: 50%;
+        height: 50%;
+        float: right;
+        display: flex;
+      }
+      
+      #main1 div {
+        -ms-flex: 1;  /* IE 10 */  
+        flex: 1;
+      }
+      .grey{
+          width: 50%;
+          height: 50%;
+          display: inline-block;
+      }
+    </style>
+    
+<body>
+
+<div class="f1"></div>
+<div id="main">
+    <div style="background-color:  #008080;"></div>
+    <div style="background-color:  #Ffc0cb;"></div>
+</div>
+<div id="main1">
+    <div style="background-color:  #008080;"></div>
+    <div style="background-color:  white;"></div>
+</div>
+<div class="grey" style="background-color: gray;"></div>
+
+</body>
+</html>
