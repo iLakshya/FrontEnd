@@ -1,0 +1,107 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+}
+.home{
+    background-image: url("gravityHome.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+
+}
+.logo{
+    font-size: 60px;
+    padding-left: 40px;
+    font-family: shadows-into-light, sans-serif;
+}
+.navbar{
+    width: 85%;
+    height: 15%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+button{
+    background-color: transparent;
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: 3px solid #fff;
+}
+button:hover{
+    font-size: 15px;
+}
+
+
+
+.content{
+    font-family: 'Montserrat', sans-serif;   
+    font-size: 40px;
+    font-weight: 900;
+    margin: auto;
+    padding: 130px;
+}
+.content span{
+    color: palevioletred;
+}
+.content button{
+    font-size: 20px;
+    margin-top: 40px;
+}
+.notes img{
+    width: 100px;
+    color: #fff;
+    animation: notes 7s linear infinite;
+}
+.notes{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    align-items: center;
+    bottom: 800px;
+}
+
+@keyframes notes {
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(80vh);
+        opacity: 0;
+    }
+}
+
+.notes img:nth-child(1){
+    animation-delay: 2s;
+}
+.notes img:nth-child(2){
+    animation-delay: 1s;
+}
+.notes img:nth-child(3){
+    animation-delay: 3s;
+}
+.notes img:nth-child(4){
+    animation-delay: 4.5s;
+}
+.notes img:nth-child(4){
+    animation-delay: 4s;
+}
+.notes img:nth-child(6){
+    animation-delay: 6s;
+}
+.notes img:nth-child(7){
+    animation-delay: 7s;
+}
