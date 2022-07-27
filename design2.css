@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.all{
+    display: flex;
+}
+.column1{
+    width: 50%;
+}
+.color1{
+    background-color: #D7B740;
+    height: 50%;
+}
+.color2{
+    background-color: #808080;
+    height: 50%;
+}
+.column2{
+    width: 25%;
+}
+.color3{
+    background-color: #008081;
+}
+.column3{
+    width: 25%;
+}
+.color4{
+    background-color: #febfcb;
+    height: 50%;
+}
+.color5{
+    background-color: #fff;
+    height: 50%;
+}
