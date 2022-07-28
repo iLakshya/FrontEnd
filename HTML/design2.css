@@ -2,6 +2,12 @@
     margin: 0;
     padding: 0;
 }
+:root
+{
+    --teal: #008081;
+    --pink: #ffc0cb;
+    --white: #ffffff;
+}
 .flex-container
 {
     display: flex;
@@ -13,17 +19,17 @@
 {
     width: 50%;
     height: 100%;
-    background-color: #008080;
+    background-color: var(--teal);
 }
 .color2
 {
     width: 50%;
     height: 50%;
-    background-color: #ffc0cb;
+    background-color: var(--pink);
 }
 .color3
 {
     width: 50%;
     height: 50%;
-    background-color: #ffffff;
+    background-color: var(--white);
 }

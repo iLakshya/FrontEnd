@@ -2,6 +2,14 @@
     margin: 0;
     padding: 0;
 }
+:root
+{
+    --golden: #d6b83e;
+    --grey: #a9acb1;
+    --pink: #ffc0cb;
+    --white: #ffffff;
+    --teal: #008081;
+}
 .flex-container
 {
     display: flex;
@@ -27,29 +35,28 @@
 .color1
 {
     height: 50%;
-    background-color: #d7b740;
+    background-color: var(--golden);
 }
 .color2
 {
     height: 50%;
-    background-color: #808080;
+    background-color: var(--grey);
 }
 .color3
 {
     width: 50%;
     height: 100%;
-    background-color: #008080;
+    background-color: var(--teal);
 }
 .color4
 {
     width: 50%;
     height: 50%;
-    background-color: #ffc0cb;
+    background-color: var(--pink);
 }
-
 .color5
 {
     width: 50%;
     height: 50%;
-    background-color: #ffffff;
+    background-color: var(--white);
 }
