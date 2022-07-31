@@ -6,19 +6,24 @@
     box-sizing: border-box;
     height: 100%;
 }
+:root
+{
+    --grey: #a8acb0;
+    --yellow: #d5b83f;
+}
 .row1
 {
     height: 50%;
     width: 100%;
 }
-.color1
+.item1
 {
-    background-color: #d5b83f;
+    background-color: var(--yellow);
     height: 40%;
 }
-.color2
+.item2
 {
-    background-color: #a8acb0;
+    background-color: var(--grey);
     height: 60%;
 }
 .row2
@@ -26,13 +31,13 @@
     display: flex;
     height: 50%;
 }
-.color3
+.item3
 {
-    background-color: #d5b83f;
+    background-color: var(--yellow);
     width: 50%;
 }
-.color4
+.item4
 {
-    background-color: #a8acb0;
+    background-color: var(--grey);
     width: 50%;
 }
