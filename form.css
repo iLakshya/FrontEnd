@@ -1,0 +1,25 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#form{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+label{
+    font-size: 30px;
+}
+input{
+    font-size: 30px;
+    padding: 5px;
+    width: 40%;
+}
+button{
+    border-radius: 5px;
+    background-color: #23272b;
+    font-size: 40px;
+    color: #fff;
+}
