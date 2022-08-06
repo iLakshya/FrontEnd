@@ -1,0 +1,43 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    height: 100%;
+}
+:root
+{
+    --grey: rgb(168 172 176);
+    --yellow: rgb(213 184 63);
+}
+.row1
+{
+    height: 50%;
+    width: 100%;
+}
+.item1
+{
+    background-color: var(--yellow);
+    height: 40%;
+}
+.item2
+{
+    background-color: var(--grey);
+    height: 60%;
+}
+.row2
+{
+    display: flex;
+    height: 50%;
+}
+.item3
+{
+    background-color: var(--yellow);
+    width: 50%;
+}
+.item4
+{
+    background-color: var(--grey);
+    width: 50%;
+}

@@ -1,0 +1,38 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+:root
+{
+    --yellow: rgb(213 184 63);
+    --grey: rgb(169 173 179);
+}
+.item1
+{
+    width: 100%;
+    height: 30%;
+    background-color: var(--yellow);
+}
+.item2
+{
+    width: 100%;
+    height: 30%;
+    background-color: var(--grey);
+}
+.item3
+{
+    width: 30%;
+    height: 40%;
+    background-color: var(--yellow);
+    float: left;
+}
+.item4
+{
+    width: 70%;
+    height: 40%;
+    background-color: var(--grey);
+    float: right;
+}

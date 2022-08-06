@@ -1,0 +1,41 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+:root
+{
+    --teal: rgb(0 128 129);
+    --babypink: rgb(254 191 203);
+    --white: rgb(255 255 255);
+}
+.item1
+{
+    height: 50%;
+    width: 50%;
+    float: left;
+    background-color: var(--teal);
+}
+.item2
+{
+    height: 50%;
+    width: 50%;
+    float: right;
+    background-color: var(--babypink);
+}
+.item3
+{
+    height: 50%;
+    width: 50%;
+    float: left;
+    background-color: var(--teal);
+}
+.item4
+{
+    height: 50%;
+    width: 50%;
+    float: right;
+    background-color: var(--white);
+}
