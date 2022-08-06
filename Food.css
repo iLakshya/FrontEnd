@@ -8,9 +8,9 @@
 }
 :root
 {
-    --white: #ffffff;
-    --lightgrey: #d3d3d3;
-    --darkgrey: #58595d;
+    --white: rgb(255 255 255);
+    --lightgrey: rgb(211 211 211);
+    --darkgrey: rgb(88 89 93);
 }
 html
 {
@@ -28,7 +28,7 @@ header
     align-items: center;
     justify-content: space-between;
     background-color: var(--white);
-    box-shadow: 0px 0px 0px 2px lightgrey;
+    box-shadow: 0px 0px 0px 2px var(--lightgrey);
     border: none;
     position: fixed;
     top: 0;
