@@ -1,18 +1,18 @@
 *
 {
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
     text-decoration: none;
     box-sizing: border-box;
     height: 100%;
 }
 :root
 {
-    --yellow: #d5b83f;
-    --grey: #a8acb0;
-    --teal: #008081;
-    --babypink: #febfcb;
-    --white: #ffffff;
+    --yellow: rgb(213 184 63);
+    --grey: rgb(168 172 176);
+    --teal: rgb(0 128 129);
+    --babypink: rgb(254 191 203);
+    --white: rgb(255 255 255);
 }
 .fcontainer
 {
