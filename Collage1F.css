@@ -1,16 +1,16 @@
 *
 {
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
     text-decoration: none;
     height: 100%;
 }
 :root
 {
-    --teal: #008081;
-    --babypink: #febfcb;
-    --white: #ffffff;
+    --teal: rgb(0 128 129);
+    --babypink: rgb(254 191 203);
+    --white: rgb(255 255 255);
 }
 .fcontainer
 {
