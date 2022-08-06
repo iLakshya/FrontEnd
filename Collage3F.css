@@ -1,15 +1,15 @@
 *
 {
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
     text-decoration: none;
     box-sizing: border-box;
     height: 100%;
 }
 :root
 {
-    --grey: #a8acb0;
-    --yellow: #d5b83f;
+    --grey: rgb(168 172 176);
+    --yellow: rgb(213 184 63);
 }
 .row1
 {
