@@ -1,0 +1,14 @@
+.calculator
+{
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+    background-color: rgb(216, 129, 216);
+}
+#calc{
+    width: 140px;
+}
+.table1
+{
+    width: 150px;
+}

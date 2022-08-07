@@ -1,0 +1,32 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+:root
+{
+    --golden: #d6b83e;
+    --grey: #a9acb1;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+}
+
+.color1 {
+    width: 100%;
+    background-color: var(--golden);
+} 
+.color2 {
+    width: 100%;
+    background-color: var(--grey);
+}
+.color3 {
+    width: 50%;
+    background-color: var(--golden);
+}
+.color4 {
+    width: 50%;
+    background-color: var(--grey);
+}
