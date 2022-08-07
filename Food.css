@@ -104,6 +104,46 @@ section.about
     width: 100%;
     max-width: 1100px;
 }
+@media only screen and (max-width: 768px)
+{
+    section.banner img
+    {
+        width: 768px;
+        height: 50vh;
+        position: relative;
+    }
+    section.banner .btitle
+    {
+        position: absolute;
+        bottom: 490px;
+        font-size: 2.0rem;
+    }
+    header .logo
+    {
+        letter-spacing: 0.2em;
+    }
+    header nav ul li
+    {
+        letter-spacing: 0.1em;
+        margin-right: 0.9em;
+    }
+    section.about .right .para2
+    {
+        display: none;
+    }
+    section.about
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: auto;
+    }
+    section.about .left
+    {
+        width: 70%;
+    }
+}
 section.about .left
 {
     width: 49%;
