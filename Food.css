@@ -104,49 +104,9 @@ section.about
     width: 100%;
     max-width: 1100px;
 }
-@media only screen and (max-width: 768px)
-{
-    section.banner img
-    {
-        width: 768px;
-        height: 50vh;
-        position: relative;
-    }
-    section.banner .btitle
-    {
-        position: absolute;
-        bottom: 490px;
-        font-size: 2.0rem;
-    }
-    header .logo
-    {
-        letter-spacing: 0.2em;
-    }
-    header nav ul li
-    {
-        letter-spacing: 0.1em;
-        margin-right: 0.9em;
-    }
-    section.about .right .para2
-    {
-        display: none;
-    }
-    section.about
-    {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 0;
-        margin: auto;
-    }
-    section.about .left
-    {
-        width: 70%;
-    }
-}
 section.about .left
 {
-    width: 49%;
+    width: 50%;
 }
 section.about .left img
 {
@@ -156,7 +116,7 @@ section.about .left img
 }
 section.about .right
 {
-    width: 45%;
+    width: 50%;
     padding-top: 30px;
     margin-left: 2em;
 }
@@ -233,4 +193,63 @@ footer p a:hover
 {
     color: rgb(241 241 241);
     transition: color 0.3s ease; 
+}
+@media only screen and (max-width: 768px)
+{
+    section.banner
+    {
+        height: 60vh;
+    }
+    section.banner img
+    {
+        width: 768px;
+        height: 50vh;
+        position: relative;
+        bottom: 0;
+    }
+    section.banner .btitle
+    {
+        position: absolute;
+        bottom: 115px;
+        font-size: 1.9rem;
+    }
+    header .logo
+    {
+        letter-spacing: 0.2em;
+    }
+    header nav ul li
+    {
+        letter-spacing: 0.1em;
+        margin-right: 0.9em;
+    }
+    section.about
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        top: 0;
+    }
+    section.about .left
+    {
+        width: 70%;
+        align-items: center;
+    }
+    section.about .right
+    {
+        width: 70%;
+        justify-content: center;
+        text-align: center;
+        top: 0;
+    }
+    section.about .right .para2
+    {
+        display: none;
+    }
+    footer
+    {
+        align-items: center;
+        justify-content: center;
+    }
 }
