@@ -253,3 +253,88 @@ footer p a:hover
         justify-content: center;
     }
 }
+@media only screen and (max-width: 320px)
+{
+    body
+    {
+        margin: 0;
+        padding-left: 0;
+    }
+    header nav
+    {
+        display: none;
+    }
+    header .logo
+    {
+        letter-spacing: 0.1em;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-left: 0%;
+        margin-right: 1.5em;
+    }
+    section.banner
+    {
+        padding: 0;
+        margin-right: 0%;
+        height: 55vh;
+    }
+    section.banner img
+    {
+        width: 320px;
+        height: 50vh;
+        position: relative;
+        object-fit:scale-down;
+        margin-right: 0%;
+    }
+    section.banner .btitle
+    {
+        font-size: 1.3em;
+        text-align: center;
+        margin-left: 0.1em;
+        margin-right: 0.1em;
+        padding-left: 0.6em;
+        padding-right: 2.4em;
+        padding-top: 5.8em;
+        letter-spacing: 0.1em;
+        justify-content: center;
+        position: relative;
+    }
+    section.about .left
+    {
+        width: 70%;
+        align-items: center;
+    }
+    section.about .right
+    {
+        width: 60%;
+        margin-right: 1.7em;
+    }
+    section.about .right .title
+    {
+        text-align: center;
+        padding-bottom: 1em;
+        font-size: 2em;
+    }
+    section.about .right .subtitle
+    {
+        text-align: center;
+        padding-bottom: 1em;
+    }
+    section.contact
+    {
+        padding-top: 1.4em;
+        align-items: center;
+    }
+    section.contact .title
+    {
+        text-align: center;
+    }
+    section.contact h5
+    {
+        margin: 1em 0;
+        font-weight: bold;
+        font-size: 1em;
+        text-align: center;
+    }
+}
