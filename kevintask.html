@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    #product{
+      text-align: center;
+      background-color: #709d61;
+      justify-content: center;
+      width: 200px;
+      height: 25px;
+    }
+    .lable{
+      text-align: center;
+      margin-top: 20%;
+    }
+  </style>
+<body style="background-color:rgb(250, 245, 243);">
+<p id="demo"></p>
+<script>
+const cars = ["Jeans", "Silk Saree", "T-shirts", "Dhothi", "Crocs", "90s Runner","Men\'s Boots","Diamond Ring", "Gold earring","Choker","Watch"];
+let text = "";
+for (let i = 0; i < cars.length; i++) {
+  text += cars[i] + "<br>";
+  document.getElementById("demo").innerHTML = text;
+
+}
+</script>
+<div class="lable">
+  <label for="products"><b>Products :</b></label></td>
+  
+  <select name="Product" id="product">
+    <option value="Jeans">Jeans</option>
+    <option value="Silk Saree">Silk Saree</option>
+    <option value="T-shirts">T-shirts</option>
+    <option value="Dhothi">Dhothi</option>
+    <option value="Crocs">Crocs</option>
+    <option value="90s Runner">90s Runner</option>
+    <option value="Men\'s Boots">Men\'s Boots</option>
+    <option value="Diamond Ring">Diamond Ring</option>
+    <option value="Gold earring">Gold earring</option>
+    <option value="Choker">Choker</option>
+    <option value="Watch">Watch</option>
+  </select>
+</div>
+</body>
+</html>
