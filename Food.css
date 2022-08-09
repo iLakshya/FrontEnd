@@ -213,6 +213,11 @@ footer p a:hover
         bottom: 115px;
         font-size: 1.9rem;
     }
+    header
+    {
+        position: fixed;
+        z-index: 999;
+    }
     header .logo
     {
         letter-spacing: 0.2em;
